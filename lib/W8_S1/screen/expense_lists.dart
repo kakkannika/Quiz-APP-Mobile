@@ -70,6 +70,7 @@ class _ExpenseItemState extends State<ExpenseItem> {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 16
+                    
                   ),
                 ),
                 SizedBox(height: 8.0),
@@ -81,7 +82,7 @@ class _ExpenseItemState extends State<ExpenseItem> {
               children: [
                 Icon(getCategoryIcon(widget.category)),
                 SizedBox(width: 10),
-                Text(date),
+                Text(date)
               ],
             ),
           ],
