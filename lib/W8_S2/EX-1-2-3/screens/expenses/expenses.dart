@@ -76,7 +76,7 @@ class _ExpensesState extends State<Expenses> {
           )
         ],
         backgroundColor: Colors.blue[700],
-        title: const Text('Expenses Tracker'),
+        title: const Text('Ronan-The Best Expense App'),
       ),
       body: _registeredExpenses.isEmpty
           ? const Center(
