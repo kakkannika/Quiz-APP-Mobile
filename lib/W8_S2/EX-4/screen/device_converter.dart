@@ -26,15 +26,7 @@ class _DeviceConverterState extends State<DeviceConverter> {
   @override
   void initState() {
     super.initState();
-    dollarController.addListener(convertCurrency); 
-  }
-
-  @override
-  void dispose() {
-    dollarController.removeListener(convertCurrency);
-    dollarController.dispose();
-    super.dispose();
-  }
+   }
 
   void convertCurrency() {
     final double? dollarAmount = double.tryParse(dollarController.text);
@@ -84,7 +76,6 @@ class _DeviceConverterState extends State<DeviceConverter> {
               hintStyle: const TextStyle(color: Colors.white),
             ),
             style: const TextStyle(color: Colors.white),
-            keyboardType: TextInputType.numberWithOptions(decimal: true),
           ),
           const SizedBox(height: 30),
           const Text("Device:"),
@@ -100,7 +91,7 @@ class _DeviceConverterState extends State<DeviceConverter> {
             onChanged: (String? newValue) {
               setState(() {
                 selectedDevice = newValue!;
-                convertCurrency(); // Recalculate on device change
+                convertCurrency();
               });
             },
           ),
