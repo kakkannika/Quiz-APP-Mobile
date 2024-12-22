@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_term1/W7_S2/model/quiz.dart';
-import 'package:flutter_term1/W7_S2/model/submission.dart';
-import 'package:flutter_term1/W7_S2/screens/question_screen.dart';
-import 'package:flutter_term1/W7_S2/screens/result_screen.dart';
-import 'package:flutter_term1/W7_S2/screens/welcome_screen.dart';
-import 'package:flutter_term1/W7_S2/model/answer.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/model/quiz.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/model/submission.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/screens/question_screen.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/screens/result_screen.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/screens/welcome_screen.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/model/answer.dart';
 
 class QuizApp extends StatefulWidget {
   final Quiz quiz;

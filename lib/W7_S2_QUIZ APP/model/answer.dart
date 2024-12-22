@@ -1,6 +1,6 @@
 
 
-import 'package:flutter_term1/W7_S2/model/quiz.dart';
+import 'package:flutter_term1/W7_S2_QUIZ%20APP/model/quiz.dart';
 
 class Answer {
   final String questionAnswer;

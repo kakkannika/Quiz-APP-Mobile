@@ -20,7 +20,7 @@ class _DeviceConverterState extends State<DeviceConverter> {
   final Map<String, double> conversionRates = {
     'Euro': 0.85, 
     'Riel': 4080.0, 
-    'Dond': 24000.0,
+    'Dong': 24000.0,
   };
 
   @override
